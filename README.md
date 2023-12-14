@@ -1,11 +1,3 @@
-Remove existing origin and add new origin to your project directory after git clone
-
-```
-git remote show origin    
-git remote rm origin    
-git add .    
-git commit -m "First commit"    
-git remote add origin Copied_origin_url    
-git remote show origin   
-git push origin master
-```
+[Github](https://github.com/Raiyan109/webmaker-frontend-wellfound)
+[Task](https://webmakersstudio.notion.site/Frontend-Task-d599f39eef1547e38bf39e3862833327)
+[Live link]()
