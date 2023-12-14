@@ -1,10 +1,11 @@
 import Navbar from '../components/Navbar';
+import Quote from './Quote';
 
 const Home = () => {
     return (
         <div>
             <Navbar />
-            kjkj
+            <Quote />
         </div>
     );
 };
