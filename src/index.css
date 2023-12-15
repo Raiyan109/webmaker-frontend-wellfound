@@ -13,20 +13,20 @@
 @layer utilities {
 
     .heading1 {
-        font-size: 72px;
+        font-size: 52px;
         font-weight: 900;
-        line-height: 85px;
+        line-height: 65px;
         letter-spacing: -2%;
         text-align: center;
         color: '#1F2937';
     }
 
     .button-primary {
-        width: 215px;
-        height: 60px;
         padding: 16px 34px 16px 34px;
         gap: 10px;
         border-radius: 8px;
+        background-color: '#1F2937';
+        color: '#F9FAFB';
     }
 
     .button-outline {

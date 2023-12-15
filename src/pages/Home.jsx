@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar';
+import Footer from './Footer';
 import Quote from './Quote';
 
 const Home = () => {
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
             <Navbar />
             <Quote />
+            <Footer />
         </div>
     );
 };
