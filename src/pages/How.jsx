@@ -1,7 +1,7 @@
 
 const How = () => {
     return (
-        <div className="px-32 py-10 hidden md:block">
+        <div className="px-32 py-10 hidden lg:block">
             <div className="bg-[#FFFFFF] rounded-xl shadow-lg border">
                 <div className="flex justify-center items-center mx-auto px-10 py-20">
                     <div className="flex flex-col items-center space-y-10">

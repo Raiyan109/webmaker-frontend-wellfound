@@ -36,7 +36,7 @@ const FAQ = () => {
     ]
     return (
         <div>
-            <div className="flex flex-col justify-center items-center mx-auto px-10 pt-20">
+            <div className="flex flex-col justify-center items-center mx-auto px-10 pt-20 my-20">
                 <div className="flex flex-col items-center space-y-5  pb-20">
                     <h1 className="text-5xl text-[#1F2937] font-bold text-center">Frequently asked questions
                     </h1>
@@ -46,7 +46,7 @@ const FAQ = () => {
                 </div>
 
                 <div className="w-full max-w-screen-sm">
-                    {faqData.map((data, i) => (
+                    {faqData.map((data) => (
                         <button
                             onClick={() => setOpen(!open)}
                             key={data.id} className="w-full border-b border-gray-300 pb-6 mb-4 text-left group focus:outline-none">
@@ -62,18 +62,6 @@ const FAQ = () => {
                             </div>
                         </button>
                     ))}
-                    {/* <button className="w-full border-b-2 border-gray-300 pb-6 text-left group mt-6 focus:outline-none">
-                        <div className="text-lg font-semibold">Q: What is the tragedy of Darth Plagueis the Wise?</div>
-                        <div className="mt-3 hidden text-gray-700 group-focus:flex">
-                            <p>Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side, he could even keep the ones he cared about from dying. He became so powerful… the only thing he was afraid of was losing his power, which eventually, of course, he did.</p>
-                        </div>
-                    </button>
-                    <button className="w-full border-b-2 border-gray-300 pb-6 text-left group mt-6 focus:outline-none">
-                        <div className="text-lg font-semibold">Q: Why did the Fellowship of the Ring not fly to Mordor with the Eagles?</div>
-                        <div className="mt-3 hidden text-gray-700 group-focus:flex">
-                            <p>Basically if they had attempted to fly in earlier, they would've been seen by the eye and then utterly demolished by the still strong forces within Mordor as Sauron was still very powerful and his armies were definitely a force to be reckoned with. That being said it is conceivable that a mission that bold could've been completed if the elves had also gotten involved, but they didn't care too much for the whole ordeal.</p>
-                        </div>
-                    </button> */}
                 </div>
             </div>
 

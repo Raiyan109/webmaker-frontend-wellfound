@@ -2,7 +2,7 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaGithub, FaDribbble } from "react-i
 const Footer = () => {
     return (
         <div>
-            <div className="bg-[#F9FAFB]">
+            <div className="footerBg lg:bg-[#F9FAFB]">
                 <div className="flex flex-col justify-center items-center mx-auto px-10 py-20 ">
                     <div className="flex flex-col items-center space-y-5  pb-20">
 

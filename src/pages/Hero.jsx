@@ -47,7 +47,7 @@ const Hero = () => {
 
                     <div className='flex flex-col justify-center items-center'>
                         <p className="text-md font-normal text-[#667085] text-center">Trusted By 250+ Companies</p>
-                        <div className='grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-20 place-items-center'>
+                        <div className='flex flex-col md:flex-row flex-wrap justify-center gap-3 md:gap-20'>
                             {
                                 images.map(({ id, image }) => (
                                     <div key={id}>

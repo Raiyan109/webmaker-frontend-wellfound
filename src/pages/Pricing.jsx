@@ -34,7 +34,7 @@ const Pricing = () => {
                 </div>
 
                 <div className="flex justify-center py-7">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
+                    <div className="flex flex-col md:flex-row flex-wrap justify-center gap-10 lg:gap-20">
                         {data.map(({ id, name, desc, price }) => (
                             <div key={id} className="w-[378px] rounded-xl p-8 odd:bg-white even:bg-[#1F2937] even:text-white space-y-8 border">
                                 <div className="space-y-2">

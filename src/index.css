@@ -19,6 +19,11 @@
                 white);
     }
 
+    .footerBg {
+        background: linear-gradient(120deg, hsla(211, 66%, 87%, 1) 0%, rgb(219, 208, 235) 50%, rgb(233, 219, 245) 100%);
+
+    }
+
     .heading1 {
         font-size: 50px;
         font-weight: 700;
