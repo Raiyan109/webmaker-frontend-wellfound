@@ -1,4 +1,5 @@
 import { TiTickOutline } from "react-icons/ti";
+import tickImg from '../assets/noun-tick-1563639.png'
 const Pricing = () => {
     const data = [
         {
@@ -49,35 +50,35 @@ const Pricing = () => {
 
                                 <div className="p-1 space-y-3">
                                     <div className="flex items-center gap-2">
-                                        <TiTickOutline />
+                                        <img className="w-3 h-3 grayscale" src={tickImg} alt="" />
                                         <span className="text-sm text-[#1F2937] even:text-[#667085]">20,000+ of PNG & SVG graphics</span>
                                     </div>
                                     <div className="flex items-center gap-2">
-                                        <TiTickOutline />
+                                        <img className="w-3 h-3 grayscale" src={tickImg} alt="" />
                                         <span className="text-sm text-[#1F2937] even:text-[#667085]">Access to 100 million stock images</span>
                                     </div>
                                     <div className="flex items-center gap-2">
-                                        <TiTickOutline />
+                                        <img className="w-3 h-3 grayscale" src={tickImg} alt="" />
                                         <span className="text-sm text-[#667085]">Upload custom icons and fonts</span>
                                     </div>
                                     <div className="flex items-center gap-2">
-                                        <TiTickOutline />
+                                        <img className="w-3 h-3 grayscale" src={tickImg} alt="" />
                                         <span className="text-sm text-[#667085]">Unlimited Sharing</span>
                                     </div>
                                     <div className="flex items-center gap-2">
-                                        <TiTickOutline />
+                                        <img className="w-3 h-3 grayscale" src={tickImg} alt="" />
                                         <span className="text-sm text-[#667085]">Upload graphics & video in up to 4k</span>
                                     </div>
                                     <div className="flex items-center gap-2">
-                                        <TiTickOutline />
+                                        <img className="w-3 h-3 grayscale" src={tickImg} alt="" />
                                         <span className="text-sm text-[#667085]">Unlimited Projects</span>
                                     </div>
                                     <div className="flex items-center gap-2">
-                                        <TiTickOutline />
+                                        <img className="w-3 h-3 grayscale" src={tickImg} alt="" />
                                         <span className="text-sm text-[#667085]">Instant Access to our design system</span>
                                     </div>
                                     <div className="flex items-center gap-2">
-                                        <TiTickOutline />
+                                        <img className="w-3 h-3 grayscale" src={tickImg} alt="" />
                                         <span className="text-sm text-[#667085]">Create teams to collaborate on designs</span>
                                     </div>
                                 </div>

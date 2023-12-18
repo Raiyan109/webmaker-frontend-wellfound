@@ -10,8 +10,10 @@ import WorkSlider from './WorkSlider';
 const Home = () => {
     return (
         <div>
-            <Navbar />
-            <Hero />
+            <div className='headerBg'>
+                <Navbar />
+                <Hero />
+            </div>
             <WorkSlider />
             <How />
             <Quote />

@@ -24,6 +24,12 @@
 
     }
 
+    .headerBg {
+        background-image: linear-gradient(to bottom,
+                hsla(211, 66%, 87%, 1) 0%,
+                white);
+    }
+
     .heading1 {
         font-size: 50px;
         font-weight: 700;
