@@ -20,9 +20,9 @@
     }
 
     .heading1 {
-        font-size: 52px;
-        font-weight: 900;
-        line-height: 65px;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 55px;
         letter-spacing: -2%;
         text-align: center;
         color: '#1F2937';
@@ -34,6 +34,8 @@
         border-radius: 8px;
         background-color: '#1F2937';
         color: '#F9FAFB';
+        font-weight: 500;
+        font-size: 20px;
     }
 
     .button-outline {

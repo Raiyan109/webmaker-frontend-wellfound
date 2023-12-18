@@ -11,8 +11,10 @@ const Footer = () => {
                             </h1>
                             <h1 className="heading1">No catches. Simple.</h1>
                         </div>
-                        <p className="text-sm text-[#667085]">Start your 30-day free trial. Cancel anytime.</p>
-                        <button className="button-primary bg-[#1F2937] text-[#F9FAFB]">Contact us</button>
+                        <div className="max-w-[290px] md:max-w-none text-center">
+                            <p className="text-lg md:text-sm text-[#667085] font-medium md:font-normal">Start your 30-day free trial. Cancel anytime.</p>
+                        </div>
+                        <button className="hidden md:block button-primary bg-[#1F2937] text-[#F9FAFB]">Contact us</button>
                     </div>
 
                 </div>
@@ -24,11 +26,11 @@ const Footer = () => {
                                 create more happy in the world.</p>
                         </div>
                     </div>
-                    <div className="flex justify-between">
-                        <div>
-                            <p className="text-xs text-[#667085]">© 2077 Untitled UI. All rights reserved.</p>
+                    <div className="flex justify-between items-center">
+                        <div className="max-w-[130px] md:max-w-none">
+                            <p className="text-md md:text-xs text-[#667085]">© 2077 Untitled UI. All rights reserved.</p>
                         </div>
-                        <div className="flex gap-2 text-[#667085]">
+                        <div className="grid grid-cols-3 md:grid-cols-6 gap-2 text-[#667085]">
                             <p><FaTwitter /></p>
                             <p><FaLinkedin /></p>
                             <p><FaFacebook /></p>

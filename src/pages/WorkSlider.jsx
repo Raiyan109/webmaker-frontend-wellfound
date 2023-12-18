@@ -12,7 +12,7 @@ import img4 from '../assets/dribble4.jpeg'
 
 const WorkSlider = () => {
     return (
-        <div className='py-16 space-y-14'>
+        <div className='py-16 space-y-14 hidden md:block'>
             <Swiper
                 slidesPerView={3}
                 spaceBetween={30}
